@@ -1,49 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Home | Curso Práctico De JavaScritp</title>
 </head>
+
 <body>
 
     <header>
-        <h1>
+        <h1 class="title">
             Talleres del Curso Práctico de JavaScritp
         </h1>
-        <p>Estos retos fueron desarrollados en el Curso de JavaScritp</p>
+        <p class="subtitle">Estos retos fueron desarrollados en el Curso de JavaScritp</p>
     </header>
-    <body>
+    <main>
         <section>
             <nav>
-                <ol>
-                    <li>
-                        <a href="./figuras.html">Taller #1</a>
-                    </li>
-                    <li>
-                        <a href="./descuentos.html">Taller #2</a>
-                    </li>
-                    <li>
-                        <a href="./promedio.html">Taller #3a</a>
-                    </li>
-                    <li>
-                        <a href="./moda.html">Taller #3b</a>
-                    </li>
-                    <li>
-                        <a href="./mediana.html">Taller #3c</a>
-                    </li>
-                    <li>
-                        <a href="./weightedAverage.html">Taller #3d</a>
-                    </li>
-                    <li>
-                        <a href="./salarios.html">Taller #4</a>
-                    </li>
-
-                </ol>
+                <ul class="index-nav grid-index">
+                    <a href="/figuras.html"><li class="index-nav-box">Geometrics</li></a>
+                    <a href="/descuentos.html"><li class="index-nav-box">Discounts</li></a>
+                    <a href="/estadisticas.html"><li class="index-nav-box">Statitics</li></a>
+                    <a href="/salarios.html"><li class="index-nav-box">Analysis</li></a>
+                </ul>
             </nav>
         </section>
-    </body>
-    
+
+    </main>
+
+
 </body>
+
 </html>
